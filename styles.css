@@ -1,0 +1,594 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.all-content {
+    background:#186A3B ;
+}
+
+html ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html ::-webkit-scrollbar-thumb {
+    background: #186A3B ;
+    border-radius: 10px;
+}
+
+html ::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Navbar start */
+#navbar {
+    background-color:darkseagreen;
+    
+
+    
+    
+}
+
+#logo img {
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 40px;
+    margin-top:0px;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+    
+}
+
+.nav-item .nav-link {
+    color: white ;
+    margin-left: 10px;
+    font-weight: light;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    background: #186A3B ;
+    border-radius: 5px;
+    color: white;
+}
+
+#navbar form button {
+    background: white;
+    color: #186A3B ;
+    border: 1px solid white;
+}
+/* Navbar end */
+
+
+
+
+
+
+
+
+/* Home section start */
+#home {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/Users/ryan/Desktop/SpaWebsite/tt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+    text-align:center;
+}
+
+#home .content {
+    padding-top: 210px;
+    margin-left: 56px;
+    text-align:center;
+}
+
+#home .content h3 {
+    font-size: 50px;
+    color: white;
+    text-align:center;
+}
+
+#home .content p {
+    margin-top: 10px;
+    color: white;
+    text-align:center;
+    
+}
+
+#book-btn {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: lighter;
+    font-size: medium;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+#book-btn:hover {
+    background: #186A3B ;
+    color: white;
+}
+/* Home section end */
+
+
+
+/* Home section start */
+#rates {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/Users/ryan/Desktop/SpaWebsite/ttt6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+
+#rates .content {
+    padding-top: 210px;
+    margin-left: 56px;
+}
+
+#rates .content h3 {
+    font-size: 50px;
+    color: white;
+}
+#rates .content h6 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+#rates .content p {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+.rates {
+    width: 100%;
+    height: 60vh;
+    background: white;
+    font-family: "Libre Franklin", sans-serif;
+    margin-bottom: 40vh;
+}
+
+.heading2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: light;
+}
+
+.heading2 span {
+    color: #b67347;
+}
+
+.rates .container {
+    margin-top: 30px;
+}
+/* Home section end */
+
+
+
+
+
+
+
+
+
+/* Contact section start */
+#contact {
+    width: 100%;
+    height: 100vh;
+    background: whitesmoke;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+#contact .container {
+    padding-top: 70px;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: light;
+}
+
+.contact span {
+    color: #186A3B ;
+}
+
+#contact .card {
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+#contact .card iframe {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media screen and (max-width:982px) {
+    #contact p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:766px) {
+    #contact p {
+        font-size: 15px;
+    }
+
+    #contact {
+        height: 120vh;
+    }
+}
+/* Contact section end */
+
+
+
+
+
+
+
+/* our therapists start */
+.ourtherapists {
+    width: 100%;
+    background-color: beige;
+    font-family: "Libre Franklin", sans-serif;
+    padding: 50px;
+}
+
+.heading2 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: light;
+    padding-bottom: 10px;
+   
+}
+
+#container2 {
+    margin-top: 20px;
+    
+}
+
+.ourtherapists .card {
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ourtherapists h3 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.ourtherapists p {
+    font-size: 16px;
+    
+    padding-top: 10px;
+}
+
+.ourtherapists p span {
+    float: right;
+    cursor: pointer;
+   
+}
+.ourtherapists .card:hover {
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width:767px) {
+    .ourtherapists {
+        height: 170vh;
+       
+    }
+}
+
+@media screen and (max-width:500px) {
+    .ourtherapists {
+        height: 150vh;
+        
+    }
+}
+
+@media screen and (max-width:370px) {
+    .ourtherapists {
+        height: 120vh;
+        
+    }
+}
+/* Our therapists end */
+
+
+
+
+
+
+
+/* massages start */
+.massages {
+    width: 100%;
+    background-color: darkseagreen;
+    font-family: "Libre Franklin", sans-serif;
+    padding: 50px;
+    color: beige;
+}
+
+.heading3 {
+    text-align: center;
+    font-size: 30px;
+    color: beige;
+    font-weight: light;
+    border-bottom: 2px solid beige;
+    padding-bottom: 10px;
+}
+
+#container2 {
+    margin-top: 20px;
+    color: beige;
+}
+
+.massages .card {
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.massages h3 {
+    color: #186A3B ;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.massages p {
+    font-size: 16px;
+    color: #186A3B ;
+    padding-top: 10px;
+}
+
+.massages p span {
+    float: right;
+    cursor: pointer;
+   
+}
+.massages .card:hover {
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width:767px) {
+    .massages {
+        height: 170vh;
+       
+    }
+}
+
+@media screen and (max-width:500px) {
+    .massages {
+        height: 150vh;
+        
+    }
+}
+
+@media screen and (max-width:370px) {
+    .massages {
+        height: 120vh;
+        
+    }
+}
+/* massages end */
+
+
+
+
+
+
+
+
+/* packages start */
+.packages {
+    width: 100%;
+    background-color: #186A3B;
+    font-family: "Libre Franklin", sans-serif;
+    padding: 50px;
+}
+
+.heading4 {
+    text-align: center;
+    font-size: 30px;
+    color: #186A3B;
+    font-weight: light;
+    border-bottom: 2px solid beige;
+    padding-bottom: 10px;
+}
+
+#container2 {
+    margin-top: 20px;
+}
+
+.packages .card {
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.packages h3 {
+    color: #186A3B;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.packages p {
+    font-size: 16px;
+    color: #186A3B;
+    padding-top: 10px;
+}
+
+.packages p span {
+    float: right;
+    cursor: pointer;
+   
+}
+.packages .card:hover {
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width:767px) {
+    .packages {
+        height: 170vh;
+       
+    }
+}
+
+@media screen and (max-width:500px) {
+    .packages {
+        height: 150vh;
+        
+    }
+}
+
+@media screen and (max-width:370px) {
+    .packages {
+        height: 120vh;
+        
+    }
+}
+/* packages end */
+
+
+
+
+
+
+
+
+
+
+
+
+/* book */
+.book {
+    width: 100%;
+    height: 100vh;
+    background: beige;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+
+.heading6 {
+    font-size: 30px;
+    font-weight: 300; /* Changed 'light' to numerical equivalent */
+    margin-top: 70px;
+    color: black;
+    text-align:center;
+}
+
+.heading6 span {
+    color: #186A3B;
+}
+
+.book p {
+    font-weight: 300; /* Changed 'light' to numerical equivalent */
+    font-size: 13px;
+    color: white;
+}
+
+.book input {
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white; /* Better contrast for input fields */
+}
+
+#finalbook-btn {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: 300; /* Changed 'lighter' to numerical equivalent */
+    font-size: medium;
+    border: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+#finalbook-btn:hover {
+    background: #186A3B;
+    color: white;
+}
+
+.book h1 {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.book #col p {
+    font-size: 15px;
+    color: white;
+    margin-left: 13px;
+    padding-top: 30px;
+}
+
+
+
+@media screen and (max-width: 766px) {
+    .book .container {
+        background: white;
+    }
+    #col {
+        width: 100%;
+        background: #186A3B;
+    }
+    .book {
+        height: auto; /* Changed fixed height to auto for better responsiveness */
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .book input {
+        width: 100%; /* Changed fixed width to 100% for better responsiveness */
+        max-width: 250px;
+    }
+}
+  /* book */
